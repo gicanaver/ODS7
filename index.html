@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Falando um pouco sobre ODS's, em especial sobre Energia limpa e acessível">
     <meta name="author" content="Gicéle de Fátima Canaver">
     <meta name="keywords"
@@ -20,7 +21,7 @@
         <nav>
             <ul>
                 <li><a href="#ODS">Sobre ODS</a></li>
-                <li><a href="#ODS 7">ODS 7</a></li>
+                <li><a href="#ODS7">ODS 7</a></li>
                 <li><a href="#video">Vídeo- ODS 7</a></li>
             </ul>
         </nav>
@@ -33,15 +34,17 @@
         </div>
     </header>
 
-    <main class="conteudo1">
-        <section>
+    <main>
+        <section class="conteudo1">
             <article>
                 <header>
                     <div>
-                        <img class="img01" src="img/IMG01.jpg" alt="icones redondos com temas de sustentabilidade">
+                        <img class="img01" src="img/IMG01.jpg" width="250em" alt="icones redondos com temas de sustentabilidade">
                     </div>
-                    <div class="espaco">
-                        <h2 id="ODS" class="borda">Objetivos de Desenvolvimento Sustentável</h2>
+                        <div>
+                            <h2 id="ODS" class="ods"> Objetivos de Desenvolvimento Sustentável</h2>
+                        </div> 
+                    
                         <p> Para entender o que é a <b>ODS 7</b>, é necessário que se entenda,
                             primeiramente, o que são e qual sua finalidade. Nesse contexto, O.D.S. significa:
                             <b>O</b>bjetivos
@@ -63,7 +66,7 @@
                             sociedade, espera-se alcançar um mundo melhor até 2030.</p>
                         <p>Nas ilustrações abaixo, pode-se conhecer cada uma delas de forma mais detalhada:
                         </p>
-                    </div>
+                    
                     <div class="itens">
                         <section class="galeriaods">
                             <div class="imagens">
@@ -153,7 +156,7 @@
                             </div>
                         </section>
                         <header>
-                            <h2 id="ODS 7">Entendendo a ODS 7</h2>
+                            <h2 id="ODS7" class="ods">Entendendo a ODS 7</h2>
                         </header>
                         <p>A busca por um futuro sustentável e próspero para o nosso planeta exige a adoção
                             de medidas efetivas
@@ -171,7 +174,7 @@
 
                         <article>
                             <header>
-                                <h2>Quais as metas da ODS 7?</h2>
+                                <h2 class="ods">Quais as metas da ODS 7?</h2>
                             </header>
                             <p>Uma das principais metas da ODS 7 é assegurar o acesso confiável, sustentável,
                                 moderno e a preço
@@ -203,7 +206,7 @@
 
                         <article>
                             <header>
-                                <h2>O que é preciso para alcançar as metas?</h2>
+                                <h2 class="ods">O que é preciso para alcançar as metas?</h2>
                             </header>
                             <p>Contudo, alcançar a ODS 7 é um desafio complexo, que requer uma ação coordenada
                                 em nível global,
@@ -231,16 +234,16 @@
 
                         <article>
                             <header>
-                                <h2>Como podemos contribuir?</h2>
+                                <h2 class="ods">Como podemos contribuir?</h2>
                             </header>
-                            <p id="video">Se cada um fizesse algo simples, ao somar com o todo, seria uma grande mudança
+                            <p>Se cada um fizesse algo simples, ao somar com o todo, seria uma grande mudança
                                 envolvendo
                                 sustentabilidade no nosso país. Algumas ações que podem ser feitas por nós:</p>
                             <br>
 
 
-                            <div class="container" id="container">
-                                <div> <iframe width="660" height="415" src="https://www.youtube.com/embed/VvlDeTbrNtE"
+                            <div id="video" class="container">
+                                <div> <iframe class="min" width="660" height="415" src="https://www.youtube.com/embed/VvlDeTbrNtE"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         allowfullscreen></iframe> </div>
@@ -258,40 +261,65 @@
         </section>
         </div>
 
+        <div class="formulario">
+            <form class=form action="" autocomplete="off">
+                <fieldset>
+                    <label for="name">Nome:</label>
+                    <legend> Para maiores informações, entre em contato:</legend>
+                    <input type="text" id="name" required placeholder="Digite seu nome">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required placeholder="Digite seu e-mail">
+
+                    <label for="messaget">Descrição:</label>
+                    <textarea name="message" rows="6" required maxlength="500" minlength="10"
+                        placeholder="Digite aqui sua solicitação de informação"></textarea>
+                    <button type="submit" class="enviar">Enviar</button>
+
+                </fieldset>
+
+            </form>
+        </div>
+
     </main>
     <footer class="rodape">
         <div class="blocofinal1">
-            <div><p class="sobre"><b>Sobre o Projeto:</b></p>
-                <div> <p class="p2">Este projeto foi elaborado por Gicéle de Fátima Canaver, aluna da segunda edição do Programa <b>Elas na Tech</b>, idealizado pela Junior Achievement Brasil (JA Brasil), com o patrocínio da CCR e apoio da Skillsbuild
-                    da IBM, e tem por foco formar mulheres na área de TI, com conteúdo técnico de programação web e desenvolvimento de
-                    habilidades empreendedoras para se posicionar no mercado de trabalho.</p>
-                 </div>
+            <div>
+                <p class="sobre"><b>Sobre o Projeto:</b></p>
+                <div>
+                    <p class="p2">Este projeto foi elaborado por Gicéle de Fátima Canaver, aluna da segunda edição do
+                        Programa <b>Elas na Tech</b>, idealizado pela Junior Achievement Brasil (JA Brasil), com o
+                        patrocínio da CCR e apoio da Skillsbuild
+                        da IBM, e tem por foco formar mulheres na área de TI, com conteúdo técnico de programação web e
+                        desenvolvimento de
+                        habilidades empreendedoras para se posicionar no mercado de trabalho.</p>
+                </div>
             </div>
 
             <div class="blocofinal2">
-                <div class="ja"> <img src="img/elasnatech.png" width="85px"> </div>
+                <div class="ja"> <img src="img/ja.png" width="195px"> </div>
+                <div class="elas"> <img src="img/elasnatech.png" width="85px"> </div>
                 <div class="ccr"> <img src="img/grupoccr.png" width="35px"> </div>
                 <div class="ibm"> <img src="img/ibm.png" width="120px"> </div>
             </div>
         </div>
 
-       
-        <div> <p class="sobre"> <b>Créditos:</b></p>
-                <a class="link" href="https://odsbrasil.gov.br/">ODSBrasil.gov</a>
-                <br>
-                <a class="link" href="https://www.wwf.org.br/nossosconteudos/educacaoambiental/">WWF Brasil</a>
-                <br>
-                <a class="link"href="https://br.freepik.com/">Freepik</a>
-                <br>
-                <a class="link"href="https://gtagenda2030.org.br/ods/">GTSCA Agenda 2030</a>
-                <br>
-                <a class="link"href="https://gifs.eco.br/">Gifs Eco</a>
-                <br>
-                <a class="link"href="https://brasil.un.org">Nações Unidas Brasil</a>
+
+        <div>
+            <p class="creditos"> <b>Créditos:</b></p>
+            <a class="link" href="https://odsbrasil.gov.br/">ODSBrasil.gov</a>
+            <a class="link" href="https://www.wwf.org.br/nossosconteudos/educacaoambiental/">WWF Brasil</a>
+            <a class="link" href="https://br.freepik.com/">Freepik</a>
+            <a class="link" href="https://gtagenda2030.org.br/ods/">GTSCA Agenda 2030</a>
+            <a class="link" href="https://gifs.eco.br/">Gifs Eco</a>
+            <a class="link" href="https://brasil.un.org">Nações Unidas Brasil</a>
+            <br>
+            <p class="fim">Todos os direitos reservados</p>
         </div>
-        
+
 
     </footer>
+   
 </body>
 
 </html>
