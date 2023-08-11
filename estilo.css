@@ -35,7 +35,7 @@
     text-align: right;
     text-transform: uppercase;
     margin-top: 2px;
-    margin-right: 4px;
+    margin-right: 2px;
 }
 
 .botoes nav li {
@@ -50,7 +50,7 @@
     display: block;
     color: white;
     text-decoration: none;
-    font-size: .8125em;
+    font-size: min(.8125em, .7125em);
     letter-spacing: .1875em;
 }
 .botoes nav a:hover {
@@ -177,13 +177,13 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
+    min-height: 30vh;
     margin: 0;
 }
 
 .form{
     width: 90%;
-    min-width: 21.125em;
+    min-width: 25.125em;
     max-width: 35em;
     padding: 1em;
 }
@@ -314,4 +314,5 @@ input, textarea{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-indent: 0;
 }
