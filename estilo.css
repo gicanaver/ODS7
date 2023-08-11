@@ -177,13 +177,13 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 30vh;
+    min-height: 20vh;
     margin: 0;
 }
 
 .form{
     width: 90%;
-    min-width: 28.125em;
+    min-width: 21.125em;
     max-width: 35em;
     padding: 1em;
 }
